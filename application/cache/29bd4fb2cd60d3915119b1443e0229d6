@@ -1,0 +1,138 @@
+a:2:{s:6:"expire";i:1655725558;s:7:"headers";a:0:{}}ENDCI---><table class="table table-sm">
+  <thead class="thead-pasteur">
+    <tr>
+      <th>Statut <i class="fa fa-sort-alpha-asc"></i></th>
+      <th>Signification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span class="st">
+        APH
+        </span>
+      </td>
+      <td>
+       Approbation hiérarchique
+     </td>
+   </tr>
+   <tr>
+    <td>
+      <span class="st">
+        APP
+      </span>
+    </td>
+    <td>
+     Approbation
+   </td>
+ </tr>
+ <tr>
+  <td>
+    <span class="st">
+      APT
+    </span>
+  </td>
+  <td>
+   Approbation technique
+ </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      DFT
+    </span>
+  </td>
+  <td>
+   Défaut
+ </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      ETR
+    </span>
+  </td>
+  <td> Entrée
+  </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      SOR
+    </span>
+  </td>
+  <td>
+   Sortie
+ </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      CTR
+    </span>
+  </td>
+  <td>
+   Clôturé
+ </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      LVE
+    </span>
+  </td>
+  <td>
+   Livré
+ </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      PAE
+    </span>
+  </td>
+  <td>
+   Payé
+ </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      PTR
+    </span>
+  </td>
+  <td>
+   Premier traitement
+ </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      DTR
+    </span>
+  </td>
+  <td> Deuxième traitement
+  </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      FTR
+    </span>
+  </td>
+  <td>
+   Traitement faite
+ </td>
+</tr>
+<tr>
+  <td>
+    <span class="st">
+      ETR
+    </span>
+  </td>
+  <td>
+   En cours de traitement
+ </td>
+</tr>
+</tbody>
+</table>

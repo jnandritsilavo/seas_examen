@@ -1,0 +1,48 @@
+   body {
+   background: radial-gradient(circle at center, #fdfbfb, #ebedee);
+   flex: 1;
+   min-width: 250px;
+   color: white;
+   z-index: 1;
+   }
+   .card
+   {
+   border-radius: 10px;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+   }
+   .glass-blur{
+   position: relative;
+   background: inherit;
+   border-radius: 2px;
+   overflow: hidden;
+   }
+   .glass-blur:after{
+   content: '';
+   background: inherit; 
+   position: absolute;
+   box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+   filter: blur(10px);
+   }
+   span.title {
+   font-size: 18px !important;
+   font-weight: bold;
+   color: #004c95;
+   }
+
+      .answer.selected {
+      background-color: #d0ebff;
+   }
+
+   .answer.correct {
+      background-color: #c8e6c9;
+   }
+
+   .answer.wrong {
+      background-color: #ffcdd2;
+   }
+
+   .error-msg {
+      color: red;
+      font-size: 0.9em;
+      margin-top: 4px;
+   }
