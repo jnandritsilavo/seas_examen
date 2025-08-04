@@ -208,3 +208,54 @@ const quizData = [{
                 });
             });
           });
+
+
+
+// function startCountdown() {
+//   const $timer = $('#timer');
+
+//   const phase1End = new Date('2025-08-02T12:00:00'); // début de l'examen
+//   const phase2End = new Date('2025-08-02T12:30:00'); // fin normale
+//   const fullClose = new Date('2025-08-02T12:30:01'); // fermeture complète
+
+//   const interval = setInterval(() => {
+//     const now = new Date();
+
+//     if (now >= fullClose) {
+//       clearInterval(interval);
+//       $timer.removeClass().addClass('alert alert-danger').html("⛔ L'examen est maintenant fermé.");
+//       $('#quiz, #submit, #formNames, #formFirst, #formRegist, #formCourse').hide();
+//       return;
+//     }
+
+//     let timeLeft, message;
+
+//     if (now < phase1End) {
+//       timeLeft = phase1End - now;
+//       message = "🔒 L'examen ouvrira à <strong>12h00</strong>. Temps restant :";
+//     } else if (now < phase2End) {
+//       timeLeft = phase2End - now;
+//       message = "⏳ Temps restant pour compléter l'examen :";
+//     } else {
+//       timeLeft = fullClose - now;
+//       message = "⚠️ Fermeture imminente de l'examen dans :";
+//     }
+
+//     // Afficher ou masquer l'examen
+//     if (now >= phase1End && now < fullClose) {
+//       $('#quiz, #submit, #formNames, #formFirst, #formRegist, #formCourse').show();
+//     } else {
+//       $('#quiz, #submit, #formNames, #formFirst, #formRegist, #formCourse').hide();
+//     }
+
+//     // Affichage du temps formaté
+//     const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//     const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+//     const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+//     const formattedTime = `${String(hours).padStart(2, '0')}h ${String(minutes).padStart(2, '0')}m ${String(seconds).padStart(2, '0')}s`;
+//     $timer.html(`${message} <strong>${formattedTime}</strong>`);
+//   }, 1000);
+// }
+
+// startCountdown();

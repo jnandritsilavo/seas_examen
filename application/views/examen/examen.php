@@ -28,13 +28,18 @@
       }
    </style>
 </head>
+
 <body class="d-flex flex-column">
    <div class="page page-center">
       <div class="container py-4">
          <div class="col-12">
             <div class="card card-lg">
                <div class="card-body">
-                  <h1 class="mb-4 text-center text-primary">Examen - Initiation à l'ingénierie de formation</h1>
+                  <h1 class="mb-0 text-center text-primary">Examen - Initiation à l'ingénierie de formation</h1>
+                  <p class="mb-4 text-center fw-bold text-danger">Une seule tentative est autorisée par matricule.</p>
+                  <div id="timer" class="alert alert-info fw-bold text-center mb-3 ">
+                     Initialisation du compte à rebours...
+                  </div>
                   <form id="studentForm" class="mb-4">
                      <div class="mb-3">
                         <label for="formNames" class="form-label">Nom :</label>
@@ -68,4 +73,5 @@
    </div>
    <script src="<?= _URL_JS_ . 'seas_examen.js?' . date('d') . ''; ?>"></script>
 </body>
+
 </html>

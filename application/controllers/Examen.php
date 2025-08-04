@@ -33,7 +33,7 @@ class Examen extends CI_Controller
         $this->form_validation->set_rules('formNames', 'Nom', 'max_length[200]|required');
         $this->form_validation->set_rules('formFirst', 'Prénoms', 'max_length[200]');
         $this->form_validation->set_rules('formCourse', 'Parcours', 'min_length[4]|max_length[4]|required');
-        $this->form_validation->set_rules('formRegist', 'Matricule', 'max_length[15]|required');
+        $this->form_validation->set_rules('formRegist', 'Matricule', 'required|max_length[15]|is_unique[examen.registration]');
         $this->form_validation->set_rules('formNote', 'Note', 'required|numeric|less_than_equal_to[10]');
         if ($this->form_validation->run() == TRUE) {
             $dataToSave = [
